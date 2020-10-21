@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+  width: 150px;
+  align-items: center;
+  background-color:green;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: yellow;
+  color: black;
+}
