@@ -30,7 +30,7 @@ const handleOnClick = async () => {
   try {
   const dataUser = await getUser(12);
   console.log(dataUser);
-  document.querySelector("#hasil").innerText = dataUser
+  document.querySelector("#hasil").innerText = dataUser.id + " " +dataUser.message
   } catch (err) {
   console.log(err);
   }
