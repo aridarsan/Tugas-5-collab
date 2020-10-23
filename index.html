@@ -2,21 +2,69 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Tugas-5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>tugas 5</title>
   </head>
   <body>
-    <div class="onclick">
-      <div class="satu">
-        <h1>Silakan Klik Tombol dibawah</h1>
-        <button onclick="handleOnClick()">Click on me</button>
-        <div id="hasil" style="margin-top: 20px"></div>
+    <div class="container" id="tabel-pelajaran-asynchronous">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="my-4 text-uppercase font-weight-bold">Tugas Collab asynchronous</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>tipe asynchronous</th>  
+                <th>testing</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>promise chain</td>
+                <td> 
+                  <button onclick="handlePromsChain()">Click on me</button>
+                  <div id="chainProms"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>promise all</td>
+                <td>
+                  <button onclick="handlePromsAll()">Click on me</button>
+                  <div id="promiseAll"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>promise all module</td>
+                <td>
+                  <button onclick="handleOnClick()">Click on me</button>
+                  <div id="promiseAllModule"></div>
+                </td>
+              </tr>
+              <tr>
+                <td>async await</td>
+                <td>
+                  <button onclick="handleAsyncAwait()">Click on me</button>
+                  <div id="asyncAwait"></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-    <!-- <script src="promise-all-from-module.js"></script> -->
-    <!-- <script src="promise-all.js"></script> -->
-    <!-- <script src="promise-chaining.js"></script> -->
-    <script src="async-await.js"></script>
+    <script src="script.js"></script>
   </body>
+
+   <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </html>
