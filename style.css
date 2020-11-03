@@ -2,15 +2,23 @@ body{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container{
+  justify-content: center !important;
+  align-items: center;
+  align-content: center;
+}
 button{
   width: 150px;
   align-items: center;
   background-color:green;
   color: white;
-  height: 50px;
+  height: 30px;
   border-radius: 10px;
 }
 button:hover{
   background-color: yellow;
   color: black;
+}
+input{
+  width: 100px;
 }

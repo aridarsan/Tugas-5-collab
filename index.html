@@ -14,41 +14,51 @@
       <div class="row">
         <div class="col-12">
           <h1 class="my-4 text-uppercase font-weight-bold">Tugas Collab asynchronous</h1>
-          <table class="table">
+          <table class="table col">
             <thead>
               <tr>
-                <th>tipe asynchronous</th>  
-                <th>testing</th>
+                <th>Input</th> 
+                <th>Testing</th>
+                <th>Hasil</th>
+                <th>Tipe Asynchronous</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>promise chain</td>
+                <td><input type="text" id="input-chainProms" placeholder="Input ID"></td>
                 <td> 
                   <button onclick="handlePromsChain()">Click on me</button>
+                </td>
+                <td>
                   <div id="chainProms"></div>
                 </td>
+                <td>Promise Chain</td>
               </tr>
-              <tr>
-                <td>promise all</td>
+              <td><input type="text" id="input-promiseAll" placeholder="Input ID"></td>
                 <td>
                   <button onclick="handlePromsAll()">Click on me</button>
-                  <div id="promiseAll"></div>
                 </td>
+                <td><div id="promiseAll"></div></td>
+                <td>Promise All</td>
+                <tr>
               </tr>
               <tr>
-                <td>promise all module</td>
+                <td><input type="text" id="input-promiseAllModule" placeholder="Input ID" disabled></td>
                 <td>
                   <button onclick="handleOnClick()">Click on me</button>
-                  <div id="promiseAllModule"></div>
                 </td>
+                <td><div id="promiseAllModule"></div>
+                </td>
+                <td>Promise All Module</td>
               </tr>
               <tr>
-                <td>async await</td>
+                <td><input type="text" id="input-asyncAwait" placeholder="Input ID"></td>
                 <td>
                   <button onclick="handleAsyncAwait()">Click on me</button>
-                  <div id="asyncAwait"></div>
                 </td>
+                <td><div id="asyncAwait"></div>
+                </td>
+                <td>Async Await</td>
               </tr>
             </tbody>
           </table>
@@ -58,7 +68,7 @@
     <script src="script.js"></script>
   </body>
 
-   <!-- Optional JavaScript -->
+  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
