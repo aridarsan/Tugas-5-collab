@@ -13,12 +13,12 @@ button{
   background-color:green;
   color: white;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 button:hover{
   background-color: yellow;
   color: black;
 }
-input{
+.form-control{
   width: 100px;
 }
