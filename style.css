@@ -20,5 +20,5 @@ button:hover{
   color: black;
 }
 .form-control{
-  width: 100px;
+  width: 100px !important;
 }
